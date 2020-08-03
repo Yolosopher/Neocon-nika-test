@@ -7,7 +7,6 @@ $(document).ready(function(){
         $(this).addClass("active");
         $(".hide").css("display", "flex");
         $('body').addClass("active");
-        $('.page-name').css('display', 'none' )
     })
 
 // ------------ close burger menu
@@ -16,7 +15,6 @@ $(document).ready(function(){
         $(".open-navigation-box").removeClass("active");
         $(".burger").removeClass("active");
         $('body').removeClass("active");
-        $('.page-name').css('display', 'flex' )
     })
     // $(".openDropDownLink").hover(function(){
     //     $('#drop-down-box').toggleClass("active");
